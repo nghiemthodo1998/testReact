@@ -5,6 +5,8 @@ import HookUseEffectFetchData from './Components/HookUseEffectFetchData';
 import IntervalHookCounter from './Components/IntervalHookCounter';
 import HookUseContext from './Components/HookUseContext';
 import HookUseReducer from './Components/HookUseReducer';
+import HookUseMemo from './Components/HookUseMemo';
+import HookUseRef from './Components/HookUseRef';
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
       <HookUseContext />
       <hr />
       <HookUseReducer />
+      <hr />
+      <HookUseMemo />
+      <hr />
+      <HookUseRef />
     </div>
   );
 }
